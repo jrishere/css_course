@@ -2,4 +2,18 @@ body {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background: #ffefd5; /* interchangeable for background-color, you can use background; shorthand */
+    color: #000000; /* sets color of the text */
+}
+
+p {
+    color: rgba(0, 0, 0, 0.5); /* overrides the body, only applies to p , rgba 4th value allows you to change opacity*/
+}
+
+h2 {
+    color: #4F6D7A;
+}
+
+p {
+    color: rgb(140, 0, 255) /* hexadecimal example */
 }
