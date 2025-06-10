@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+
+typography is the way that text is arranged
+and presented
+
+*/
+
+
+body {
+    padding: 10%;
+    font-size: 2rem;    
+    font-family: 'Roboto', sans-serif;
+}
+
+/* input, button {
+    font: inherit; inherits the font size that is put on everything else 
+} */
+
+p {
+    text-decoration: none; /* creates a decoration for the text */
+    text-transform: capitalize; /* applies to every letter */
+    text-align: left; /* alignment for text */
+    text-indent: 2em; /* use em for this, creates an indent */
+    line-height: 1.5;
+    letter-spacing: 0em;
+    font-weight: normal; /* sets the weight of the font */
+    font-style: normal; /* italic, etc. */
+}
