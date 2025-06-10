@@ -1,0 +1,46 @@
+html {
+    font-size: 22px;
+}
+
+
+/* element selectors, everything in the body is inherited from this */
+body { 
+    font-size: 22px;
+}
+
+main {
+    font-family: monospace;
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+h1, h2 { /* group selectors */
+    color: blue;
+}
+
+/* class selectors, if moved above p it takes priority because it is more specific */
+.gray { 
+    color: gray;
+}
+
+p {
+    color: purple!important; /* should rarely be used, basically overrides all the cascading
+}
+
+p { /* cascading, goes in order of ops */
+    color: red;
+}
+
+.highlight { /* if it is a paragraph and is a span it selects these, better to use a class and name it .highlight */
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+
+
+/* id selectors (rarely, if ever), most specific */
+#second {
+    font-style: italic;
+}
